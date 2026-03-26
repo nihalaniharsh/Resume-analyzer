@@ -1,16 +1,38 @@
-# React + Vite
+# Resume Score Analyzer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Overview
 
-Currently, two official plugins are available:
+This is a frontend-only React application that allows users to upload a resume (PDF) and get a simulated analysis including score, keyword insights, and suggestions.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+* Upload PDF resume
+* File validation (PDF only)
+* Mock keyword extraction
+* Resume score (0–100)
+* Found & Missing keywords
+* Improvement suggestions
+* Smooth UI with animations
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠 Tech Stack
 
-## Expanding the ESLint configuration
+* React (Vite)
+* Tailwind CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📦 Setup Instructions
+
+bash
+npm install
+npm run dev
+
+
+## ⚠️ Note
+
+This project uses mocked data for analysis. No real resume parsing is performed.
+
+## 💡 Future Improvements
+
+* Real resume parsing
+* Drag & drop functionality
+* Backend integration
+* Dark mode
